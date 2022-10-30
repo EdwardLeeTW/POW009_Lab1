@@ -19,17 +19,15 @@ The hand-on example code for RTC POW009-Lab1 was integrated the dsPIC33CK Framew
 - Controller: dsPIC33CK256MP508@100MIPS
 - I/O: 0.5Hz LED Toggle with LED1 (RE6)
 - PWMs: PWM4H & PWM4L
-- - PWM Frequency: 250KHz
-- - PWM4H on RC14
-- - PWM4L  on RD6
-- - Duty Cycle: Fixed at 40%
-- - Deadtime:
-- - Rising Edge: 150ns
-- - Falling Edge: 150ns
+  - PWM Frequency: 250KHz
+  - PWM4H on RC14
+  - PWM4L  on RD6
+  - Duty Cycle: Fixed at 40%
+  - Deadtime:
+  - Rising Edge: 150ns
+  - Falling Edge: 150ns
 - Vout Feedback: AN22
-- - Triggered by PWM4_Trigger1
-![image](https://user-images.githubusercontent.com/61537309/198884784-9c52d930-a636-4aa4-bc38-cc4e7f48668e.png)
-
+  - Triggered by PWM4_Trigger1
 
 - - -
 
