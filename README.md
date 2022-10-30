@@ -23,9 +23,7 @@ The hand-on example code for RTC POW009-Lab1 was integrated the dsPIC33CK Framew
   - PWM4H on RC14
   - PWM4L  on RD6
   - Duty Cycle: Fixed at 40%
-  - Deadtime:
-  - Rising Edge: 150ns
-  - Falling Edge: 150ns
+  - Deadtime: Rising Edge: 150ns / Falling Edge: 150ns
 - Vout Feedback: AN22
   - Triggered by PWM4_Trigger1
 
