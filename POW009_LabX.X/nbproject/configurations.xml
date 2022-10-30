@@ -23,6 +23,13 @@
         <itemPath>mcc_generated_files/reset_types.h</itemPath>
         <itemPath>mcc_generated_files/system.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="os" displayName="os" projectFiles="true">
+        <itemPath>sources/os/os_timer.h</itemPath>
+        <itemPath>sources/os/os.h</itemPath>
+        <itemPath>sources/os/os_sys_time.h</itemPath>
+        <itemPath>sources/os/os_scheduler.h</itemPath>
+      </logicalFolder>
+      <itemPath>sources/config/os_settings.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -45,7 +52,15 @@
         <itemPath>mcc_generated_files/mcc.c</itemPath>
         <itemPath>mcc_generated_files/adc1.c</itemPath>
       </logicalFolder>
+      <logicalFolder name="os" displayName="os" projectFiles="true">
+        <itemPath>sources/os/os_scheduler_100us.c</itemPath>
+        <itemPath>sources/os/os_scheduler_1ms.c</itemPath>
+        <itemPath>sources/os/os_sys_time.c</itemPath>
+        <itemPath>sources/os/os.c</itemPath>
+        <itemPath>sources/os/os_timer.c</itemPath>
+      </logicalFolder>
       <itemPath>main.c</itemPath>
+      <itemPath>main_tasks.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -54,6 +69,10 @@
       <itemPath>POW009_LabX.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>sources/os</Elem>
+    <Elem>sources/config</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
