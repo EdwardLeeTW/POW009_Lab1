@@ -27,6 +27,10 @@ The hand-on example code for RTC POW009-Lab1 was integrated the dsPIC33CK Framew
 - Vout Feedback: AN22
   - Triggered by PWM4_Trigger1
 
+## Version Description
+
+- v1.0 (Oct 30, 2022)
+
 - - -
 
 ## Related Documentation
